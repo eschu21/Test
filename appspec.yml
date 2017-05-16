@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: ~/Documents/Clients/GameCircus/payload
+    destination: /opt/demo-payload/
+# hooks:
+#   BeforeInstall:
+#     - location: ~/Documents/Clients/GameCircus/demo-payload.sh
+  # AfterInstall:
+  #   - location: Scripts/RunResourceTests.sh
+  #     timeout: 180
+  # ApplicationStart:
+  #   - location: Scripts/RunFunctionalTests.sh
+  #     timeout: 3600
+  # ValidateService:
+  #   - location: Scripts/MonitorService.sh
+  #     timeout: 3600
+  #     runas: codedeployuser
+
